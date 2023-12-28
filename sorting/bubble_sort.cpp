@@ -1,4 +1,4 @@
-// in selection sort it pushes the maximum value to last by adjacent swaps
+// in bubble sort it pushes the maximum value to last by adjacent swaps
 #include <iostream>
 using namespace std;
 int main()
@@ -21,7 +21,7 @@ int main()
     }
         }
     for(int i=0; i<n; i++){
-            cout<<arr[i];
+            cout<<arr[i]<<" ";
     }
     return 0;
 }
